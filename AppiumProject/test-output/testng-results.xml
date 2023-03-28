@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-27T23:21:29 PKT" name="Default suite" finished-at="2023-03-27T23:26:11 PKT" duration-ms="281759">
+    <groups>
+    </groups>
+    <test started-at="2023-03-27T23:21:29 PKT" name="Default test" finished-at="2023-03-27T23:26:11 PKT" duration-ms="281759">
+      <class name="tests.Tests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.Tests@1ffaf86]" started-at="2023-03-27T23:21:29 PKT" name="setup" finished-at="2023-03-27T23:21:40 PKT" duration-ms="10365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="firsttestcase()[pri:1, instance:tests.Tests@1ffaf86]" started-at="2023-03-27T23:21:40 PKT" name="firsttestcase" finished-at="2023-03-27T23:22:49 PKT" duration-ms="69474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firsttestcase -->
+        <test-method signature="secondtestcase()[pri:2, instance:tests.Tests@1ffaf86]" started-at="2023-03-27T23:22:49 PKT" name="secondtestcase" finished-at="2023-03-27T23:24:06 PKT" duration-ms="76218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondtestcase -->
+        <test-method signature="thirddtestcase()[pri:3, instance:tests.Tests@1ffaf86]" started-at="2023-03-27T23:24:06 PKT" name="thirddtestcase" finished-at="2023-03-27T23:24:32 PKT" duration-ms="26415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirddtestcase -->
+        <test-method signature="fourthtestcase()[pri:4, instance:tests.Tests@1ffaf86]" started-at="2023-03-27T23:24:32 PKT" name="fourthtestcase" finished-at="2023-03-27T23:25:12 PKT" duration-ms="40038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fourthtestcase -->
+        <test-method signature="fifthtestcase()[pri:5, instance:tests.Tests@1ffaf86]" started-at="2023-03-27T23:25:12 PKT" name="fifthtestcase" finished-at="2023-03-27T23:26:11 PKT" duration-ms="58874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fifthtestcase -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.Tests@1ffaf86]" started-at="2023-03-27T23:26:16 PKT" name="teardown" finished-at="2023-03-27T23:26:16 PKT" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.Tests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
