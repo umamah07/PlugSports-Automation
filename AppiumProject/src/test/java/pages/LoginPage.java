@@ -14,6 +14,8 @@ public class LoginPage {
 	private By passwordByXpath = AppiumBy.xpath("(//android.widget.EditText)[2]");
 	private By loginbtnByXpath = AppiumBy.xpath("(//android.widget.TextView)[2]");
 	private By signupoptionByXpath = AppiumBy.xpath("(//android.widget.TextView)[4]");
+	
+	
 		
 	
 	public LoginPage (AppiumDriver appiumDriver)
