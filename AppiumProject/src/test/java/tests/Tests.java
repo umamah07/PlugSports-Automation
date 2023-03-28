@@ -23,7 +23,7 @@ public class Tests extends BaseClass {
 		
 		CreateAccount createaccount = new CreateAccount(driver);
 		Thread.sleep(5000);
-		createaccount.getemailfield().sendKeys("hamza+112@geeksofkolachi.com");
+		createaccount.getemailfield().sendKeys("hamza+115@geeksofkolachi.com");
 		createaccount.getpasswordfield().sendKeys("Hamza@123");
 		
 		Thread.sleep(3000);
@@ -247,7 +247,7 @@ public class Tests extends BaseClass {
 		
 		String actual_result4 = signup.getreview_DOB_field().getText();
 		Thread.sleep(2000);
-		String  expected_result4= "03/27/10";
+		String  expected_result4= "03/28/10";
 		
 		Assert.assertEquals(actual_result4, expected_result4);
 		
