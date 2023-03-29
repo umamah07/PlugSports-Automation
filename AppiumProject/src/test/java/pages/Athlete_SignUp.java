@@ -6,12 +6,12 @@ import org.openqa.selenium.WebElement;
 import io.appium.java_client.AppiumBy;
 import io.appium.java_client.AppiumDriver;
 
-public class SignUp {
+public class Athlete_SignUp {
 	
 private AppiumDriver appiumDriver;
 	
 	private By athleteradiobtnByXpath = AppiumBy.xpath("(//android.view.ViewGroup)[27]");
-	private By recruiterradiobtnByXpath = AppiumBy.xpath("(//android.view.ViewGroup)[29]");
+	
 	private By fanradiobtnByXpath = AppiumBy.xpath("(//android.view.ViewGroup)[31]");
 	private By nextbtnByXpath = AppiumBy.xpath("(//android.widget.TextView)[@text=\"Next\"]");
 	private By firstname = AppiumBy.xpath("(//android.widget.EditText)[@text=\"First Name\"]");
@@ -76,7 +76,7 @@ private AppiumDriver appiumDriver;
 	
 
 	
-	public SignUp (AppiumDriver appiumDriver)
+	public Athlete_SignUp (AppiumDriver appiumDriver)
 	{
 		this.appiumDriver = appiumDriver;
 	}
@@ -90,12 +90,6 @@ private AppiumDriver appiumDriver;
 	public WebElement getathleteradiobtn()
 	{
 		return appiumDriver.findElement(athleteradiobtnByXpath);
-		
-	}
-	
-	public WebElement getrecruiteradiobtn()
-	{
-		return appiumDriver.findElement(recruiterradiobtnByXpath);	
 		
 	}
 	
