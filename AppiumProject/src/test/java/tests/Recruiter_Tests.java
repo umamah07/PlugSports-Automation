@@ -23,7 +23,7 @@ public class Recruiter_Tests extends BaseClass {
 		
 		CreateAccount createaccount = new CreateAccount(driver);
 		Thread.sleep(5000);
-		createaccount.getemailfield().sendKeys("hamza+119@geeksofkolachi.com");
+		createaccount.getemailfield().sendKeys("hamza+127@geeksofkolachi.com");
 		createaccount.getpasswordfield().sendKeys("Hamza@123");
 		
 		Thread.sleep(3000);
